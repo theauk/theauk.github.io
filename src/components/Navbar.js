@@ -13,13 +13,13 @@ export default class Navbar extends Component {
                     <p
                         className="nav-item"
                         alt="Menu"
-                        onClick={this.scrollToTop}>Menu
+                        onClick={this.scrollToTop}>Home
             </p>
                     <ul className="nav-items">
                         <li className="nav-item">
                             <Link
                                 activeClass="active"
-                                to="section2"
+                                to="about"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
                         <li className="nav-item">
                             <Link
                                 activeClass="active"
-                                to="section3"
+                                to="projects"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
@@ -43,7 +43,7 @@ export default class Navbar extends Component {
                         <li className="nav-item">
                             <Link
                                 activeClass="active"
-                                to="section4"
+                                to="contact"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
