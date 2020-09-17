@@ -53,10 +53,10 @@ export default class Navbar extends Component {
               </Link>
                         </li>
                         <li className="nav-item">
-                            <a href="https://github.com/theauk" target="_blank">GitHub</a>
+                            <a href="https://github.com/theauk" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://www.linkedin.com/in/theakjeldsmark/" target="_blank">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/theakjeldsmark/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         </li>
                     </ul>
                 </div>
