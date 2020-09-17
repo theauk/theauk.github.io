@@ -11,7 +11,7 @@ export default class Navbar extends Component {
             <nav className="nav" id="navbar">
                 <div className="nav-content">
                     <p
-                        className="nav-item"
+                        className="nav-home"
                         alt="Menu"
                         onClick={this.scrollToTop}>Home
             </p>
