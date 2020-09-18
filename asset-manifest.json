@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.665ef37f.chunk.css",
-    "main.js": "/static/js/main.2aa1627a.chunk.js",
-    "main.js.map": "/static/js/main.2aa1627a.chunk.js.map",
+    "main.css": "/static/css/main.d9cc3395.chunk.css",
+    "main.js": "/static/js/main.0183d983.chunk.js",
+    "main.js.map": "/static/js/main.0183d983.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9abb29a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.9abb29a1.js.map",
     "static/js/2.1346d1d9.chunk.js": "/static/js/2.1346d1d9.chunk.js",
     "static/js/2.1346d1d9.chunk.js.map": "/static/js/2.1346d1d9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4cda29ae97f656b52a787d02a6cffc61.js": "/precache-manifest.4cda29ae97f656b52a787d02a6cffc61.js",
+    "precache-manifest.0601c761b62f3fdd3677789d0ec6e94a.js": "/precache-manifest.0601c761b62f3fdd3677789d0ec6e94a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.665ef37f.chunk.css.map": "/static/css/main.665ef37f.chunk.css.map",
+    "static/css/main.d9cc3395.chunk.css.map": "/static/css/main.d9cc3395.chunk.css.map",
     "static/js/2.1346d1d9.chunk.js.LICENSE.txt": "/static/js/2.1346d1d9.chunk.js.LICENSE.txt",
     "static/media/cooking-scheduler.png": "/static/media/cooking-scheduler.8f208cb3.png",
     "static/media/index.css": "/static/media/nail-gilfanov-TuyneoFacJg-unsplash.1105d62b.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.9abb29a1.js",
     "static/js/2.1346d1d9.chunk.js",
-    "static/css/main.665ef37f.chunk.css",
-    "static/js/main.2aa1627a.chunk.js"
+    "static/css/main.d9cc3395.chunk.css",
+    "static/js/main.0183d983.chunk.js"
   ]
 }
