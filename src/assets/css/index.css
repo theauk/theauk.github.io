@@ -96,12 +96,26 @@ body {
   -ms-background-position-x: center;
   -ms-background-position-y: bottom;
   background-position: center bottom;
-  /* scale bg image proportionately */
   background-size: cover;
+}
+
+.profile-image {
+  max-width: 100%;
+}
+
+.about-text {
+  margin-block-start: 0;
+  line-height: 30px;
 }
 
 #outer-about {
   background-color: lightgrey;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  column-gap: 50px;
 }
 
 .projects-grid {
