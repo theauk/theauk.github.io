@@ -1,9 +1,6 @@
 body {
   background-color: white;
   margin: 0;
-}
-
-h1, h2, p, ul, li {
   font-family: sans-serif;
 }
 
@@ -100,7 +97,7 @@ h1, h2, p, ul, li {
   -ms-background-position-y: bottom;
   background-position: center bottom;
   /* scale bg image proportionately */
-  background-size: cover;  
+  background-size: cover;
 }
 
 #outer-about {
@@ -138,15 +135,15 @@ h1, h2, p, ul, li {
 
 .project-button {
   background: rgb(228, 228, 228);
-  border:1px solid rgb(153, 153, 153);
+  border: 1px solid rgb(153, 153, 153);
   color: rgb(49, 49, 49);
   padding: 8px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 15px;
   cursor: pointer;
-  border-radius:17px;
+  border-radius: 17px;
 }
 
 .project-button:hover {
@@ -158,48 +155,77 @@ h1, h2, p, ul, li {
   display: none;
 }
 
+.specific-experience {
+  margin-bottom: 30px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 25px 20px;
+}
+
+.specific-experience p {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+
+.outer-experience {
+  background-color: lightgrey;
+}
+
+.company-name {
+  font-size: 17px;
+  font-weight: bold;
+  margin-block-end: 150px;
+}
+
+.role-name {
+  font-size: 20px;
+  color: #136b16;
+}
+
+.experience-date {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.responsibility {
+  font-size: 15px;
+}
+
 .footer {
   margin: 0;
   height: 100%;
   background-color: grey;
-  padding: 20px;
+  padding: 15px;
 }
 
 .footer p {
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
   text-align: right;
   font-weight: lighter;
 }
 
 @media only screen and (max-width: 600px) {
-
   .nav {
     height: 45px;
   }
-
   .section-home {
     height: calc(100vh - 40px);
   }
-
   .nav .nav-content {
     grid-template-columns: 0.5fr 1.5fr;
     column-gap: 0;
     margin: 0 30px;
   }
-
   .nav-item, .nav-home {
     font-size: 11px;
   }
-
   .section {
     padding: 0 30px;
   }
-
   .section-content {
     padding-top: 10px;
   }
-
   .projects-grid {
     grid-template-columns: 1fr;
   }
