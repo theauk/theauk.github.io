@@ -72,11 +72,7 @@ h1, h2, p, ul, li {
 .section-content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 30px 0;
-}
-
-.section-content h1 {
-  margin: 0px;
+  padding: 50px 0;
 }
 
 .section-home {
@@ -111,23 +107,16 @@ h1, h2, p, ul, li {
   background-color: lightgrey;
 }
 
-#projects {
+.projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px 50px;
-}
-
-@media only screen and (max-width: 600px) {
-  #projects {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+  grid-gap: 40px 50px;
 }
 
 .project-title {
   margin: 15px 0 5px 0;
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 .project-description {
@@ -161,7 +150,7 @@ h1, h2, p, ul, li {
 }
 
 .project-button:hover {
-  background-color: #45bd49;
+  background-color: #136b16;
   color: white;
 }
 
@@ -181,4 +170,37 @@ h1, h2, p, ul, li {
   font-size: 15px;
   text-align: right;
   font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .nav {
+    height: 45px;
+  }
+
+  .section-home {
+    height: calc(100vh - 40px);
+  }
+
+  .nav .nav-content {
+    grid-template-columns: 0.5fr 1.5fr;
+    column-gap: 0;
+    margin: 0 30px;
+  }
+
+  .nav-item, .nav-home {
+    font-size: 11px;
+  }
+
+  .section {
+    padding: 0 30px;
+  }
+
+  .section-content {
+    padding-top: 10px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }

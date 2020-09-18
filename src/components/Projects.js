@@ -9,9 +9,9 @@ class Projects extends Component {
   render() {
     return (
       <div className="section">
-        <div className="section-content">
-          <h1>Projects</h1>
-          <div id="projects">
+        <div className="section-content" id="projects">
+          <h1 className="projects-headline">Projects</h1>
+          <div className="projects-grid">
             <ProjectTile
               title="Travel Planner"
               img={travelPlannerPicture}
