@@ -6,10 +6,10 @@ class Home extends Component {
     return (
       <div className="section-home">
         <div id="home">
-          <img class="owl-image" src={owl} alt="owl" />
-          <div class="home-text">
+          <img className="owl-image" src={owl} alt="owl" />
+          <div className="home-text">
             <h1>Hi, I am Thea</h1>
-            <p>Description description description</p>
+            <p>student · code nerd · hiker · traveller</p>
           </div>
         </div>
       </div>

@@ -7,24 +7,6 @@ h1, h2, p, ul, li {
   font-family: sans-serif;
 }
 
-ul.header li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-}
-
-ul.header {
-  padding: 0;
-}
-
-ul.header li a {
-  color: #FFF;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 20px;
-  display: inline-block;
-}
-
 .content h2 {
   padding: 0;
   margin: 0;
@@ -51,15 +33,26 @@ ul.header li a {
 .nav .nav-content {
   max-width: 900px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
   align-items: center;
   height: 100%;
 }
 
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0;
+}
+
 .nav-item {
   display: inline;
-  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item a {
+  text-decoration: none;
   color: #333;
 }
 
@@ -68,9 +61,12 @@ ul.header li a {
   color: #333;
 }
 
-.nav-item:hover {
-  color: black;
+.nav-item:hover, .nav-home:hover {
   cursor: pointer;
+}
+
+.nav-item a:hover, .nav-home:hover {
+  color: rgb(25, 145, 39);
 }
 
 .section-content {
@@ -118,6 +114,7 @@ ul.header li a {
 #projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -127,8 +124,49 @@ ul.header li a {
   }
 }
 
+.project-title {
+  margin: 15px 0 5px 0;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.project-description {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
 .project-image {
   max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-button {
+  background: rgb(228, 228, 228);
+  border:1px solid rgb(153, 153, 153);
+  color: rgb(49, 49, 49);
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius:17px;
+}
+
+.project-button:hover {
+  background-color: #45bd49;
+  color: white;
+}
+
+.button-hide {
+  display: none;
 }
 
 .footer {
@@ -138,7 +176,9 @@ ul.header li a {
   padding: 20px;
 }
 
-.footer, p {
+.footer p {
   margin: 0;
   font-size: 15px;
+  text-align: right;
+  font-weight: lighter;
 }

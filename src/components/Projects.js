@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import ProjectTile from "./ProjectsTile";
-import picture from "../assets/img/nail-gilfanov-TuyneoFacJg-unsplash.jpg"
+import travelPlannerPicture from "../assets/img/travel-planner.png";
+import sortSmartPicture from "../assets/img/sort-smart.png";
+import portfolioPicture from "../assets/img/portfolio.png";
+import cookingSchedulerPicture from "../assets/img/cooking-scheduler.png";
 
 class Projects extends Component {
   render() {
@@ -10,24 +13,40 @@ class Projects extends Component {
           <h1>Projects</h1>
           <div id="projects">
             <ProjectTile
-              title="Project 1"
-              img={picture}
-              description="Text 1"
+              title="Travel Planner"
+              img={travelPlannerPicture}
+              description="HTML · CSS · JavaScript"
+              hide_code={false}
+              code_url={"https://github.com/theauk/Udacity-Front-End-Nanodegree/tree/master/Project%205%20-%20Travel%20App"}
+              hide_website={true}
+              website_url={null}
             />
             <ProjectTile
-              title="Project 2"
-              img={picture}
-              description="Text 2"
+              title="SortSmart"
+              img={sortSmartPicture}
+              description="HTML · CSS"
+              hide_code={false}
+              code_url={"https://github.com/theauk/SortSmart"}
+              hide_website={false}
+              website_url={"https://sort-smart.netlify.app/"}
             />
             <ProjectTile
-              title="Project 3"
-              img={picture}
-              description="Text 3"
+              title="Personal Portfolio"
+              img={portfolioPicture}
+              description="React"
+              hide_code={false}
+              code_url={"https://github.com/theauk/theauk.github.io"}
+              hide_website={true}
+              website_url={null}
             />
             <ProjectTile
-              title="Project 4"
-              img={picture}
-              description="Text 4"
+              title="Cooking Scheduler Algorithm"
+              img={cookingSchedulerPicture}
+              description="Python"
+              hide_code={false}
+              code_url={"https://github.com/theauk/Algorithms-and-Data-Structures/blob/master/Cooking%20Scheduler.ipynb"}
+              hide_website={true}
+              website_url={"http://google.dk/"}
             />
           </div>
         </div>
