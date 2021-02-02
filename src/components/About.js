@@ -9,10 +9,12 @@ class About extends Component {
           <h1>About Me</h1>
           <div className="about-grid">
             <div class="about-text-skills">
-              <p className="about-text">I enjoy building solutions that can efficiently help people and businesses achieve their goals.
-              My international experience from the US, South Korea, and Denmark has given me an understanding of how to communicate across cultures and backgrounds.
-             During my work, I always strive to expose myself to new problems and knowledge. </p>
-              
+              <p className="about-text">I enjoy building solutions that help people and organizations reach their goals. 
+                Currently, I am an undergraduate student at the IT University of Copenhagen, where I study software development. Before ITU, I at Minerva Schools at KGI in the US and South Korea. 
+                <br></br>
+                <br></br>
+                Technically, I am proficient in Java, Python, HTML, CSS, and React. My international experience from the US, South Korea, and Denmark has given me an understanding of how to communicate across cultures and backgrounds.
+                During my work, I always strive to expose myself to new problems and knowledge. </p>
             </div>
             <img className="profile-image" src={profile} alt="Profile" />
           </div>
