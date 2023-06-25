@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: thea.png
+  image: thea_small.png
   image_circular: false # crops the image to make it circular
   address: > 
     <p>tkjeldsm at uci dot edu</p>
