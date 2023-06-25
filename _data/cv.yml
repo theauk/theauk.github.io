@@ -1,97 +1,85 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Computer Science
+      institution: University of California, Irvine
+      year: Starting Fall 2023
+    - title: B.S. in Software Development
+      institution: IT University of Copenhagen
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Bachelor project advised by <a href="https://alessandrobruni.name/" rel="external nofollow noopener" target="_blank">Alessandro Bruni</a>.
+    - title: Study Abroad Semester
+      institution: American University in Cairo
+      year: Spring 2022
+    - title: >
+        Part of Bachelor's: Computational and Social Sciences
+      institution: Minerva University
+      year: 2018-2019
       description:
-        - Description 1.
-        - Description 2.
+        - Left to pursue computer science at ITU.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Software Engineer Intern
+      institution: Microsoft, Ireland
+      year: Jun 2023 - Aug 2023
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Software Engineer Intern
+      institution: Microsoft, Ireland
+      year: Jun 2022 - Aug 2022
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineer Intern
+      institution: J.P. Morgan, United Kingdom
+      year: Jun 2021 - Aug 2021
+
+    - title: Data Engineer Intern
+      institution: Tradimo Interactive
+      year: Jun 2019 - Feb 2020
       description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant
+      institution:
+      year: ITU
+      description:
+        - >
+          Spring 2023: Study Lab (Algorithms, Web Programming, Java Project)
+        - >
+          Fall 2022: Distributed Systems
+        - >
+          Fall 2021: Introductory Programming
+    - title: Writing Peer Tutor
+      institution:
+      year: Minerva
+      description:
+        - Helped students with their English writing via workshops and 1:1s.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Thanks to Scandinavia Scholar
+      institution: 
+      year: 2023
+      description:
+        - Selected as one of two Danish scholars for graduate tuition scholarship (selected by Fulbright Denmark).
+    - title: Danish National Cybersecurity Competition (CTF)
+      institution: 
+      year: Spring 2021
+      description:
+        -  Qualified for the national competition by passing the online qualification and then placing in the top 25 at the regional competition.
+    - title: HackIllinois (UIUC) Open-Source Fellow
+      institution: 
+      year: Feb 2021 - Mar 2021
+      description:
+        -  Selected as one of nine outstanding contributors from 46 participants based on contributions and mentor feedback.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Languages:</u> Java, Go, C#, F#, C, R, Python, JavaScript, SQL, GraphQL
+    - <u>Web Technologies:</u> React, TypeScript, HTML/CSS
+    - <u>Tools:</u> Git, Docker, Linux, Kubernetes
