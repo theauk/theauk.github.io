@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming M.S. in Computer Science student in the [Computer Science Department](https://www.cs.uci.edu/) at the [University of California, Irvine](https://uci.edu/). I am excited about systems security, including vulnerability discovery, trustworthy computing, and software security. 
+I am an incoming M.S. in Computer Science student in the [Computer Science Department](https://www.cs.uci.edu/) at the [University of California, Irvine](https://uci.edu/). I am excited about systems security and distributed systems. 
 
 I received a B.S. in Software Development from the [IT University of Copenhagen](https://en.itu.dk/) with a semester abroad at the [American University in Cairo](https://www.aucegypt.edu/). 
 
