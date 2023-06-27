@@ -25,19 +25,22 @@
     - title: Software Engineer Intern
       institution: Microsoft, Ireland
       year: Jun 2023 - Aug 2023
+      description:
 
     - title: Software Engineer Intern
       institution: Microsoft, Ireland
       year: Jun 2022 - Aug 2022
+      description: Developed a Microsoft Teams app that visualizes how accessible a company's Office files are.
 
     - title: Software Engineer Intern
       institution: J.P. Morgan, United Kingdom
       year: Jun 2021 - Aug 2021
+      description: Developed a Java framework for translating GraphQL queries into SPARQL queries.
 
     - title: Data Engineer Intern
       institution: Tradimo Interactive
       year: Jun 2019 - Feb 2020
-      description:
+      description: Implemented a website tracking system and created marketing dashboards with JavaScript.
 
 - title: Teaching
   type: time_table
@@ -70,7 +73,7 @@
       institution: 
       year: Spring 2021
       description:
-        -  Qualified for the national competition by passing the online qualification and then placing in the top 25 at the regional competition.
+        -  Placed in top 25 at the regional competition resulting in qualification for the national competition.
     - title: HackIllinois (UIUC) Open-Source Fellow
       institution: 
       year: Feb 2021 - Mar 2021

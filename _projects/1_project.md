@@ -1,11 +1,14 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: >
+    Haaukernetes
+description: >
+    Bachelor Project: Improving Haaukins (open-source CTF platform) using Kubernetes
 img: assets/img/12.jpg
 importance: 1
-category: work
 ---
+
+https://github.com/Mai-Sigurd/Haaukernetes
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

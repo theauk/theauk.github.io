@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Map of Denmark
+description: Visualization, navigation, and rute planning
 img: assets/img/3.jpg
 importance: 2
 category: work
