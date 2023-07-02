@@ -41,9 +41,9 @@ layout: default
           </div>
 
           <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html limit=true %}
+          {% if page.news -%}
+          <h2>news <span><a href="/news" style="font-size: 17px;">[archive]</a></span></h2>
+          {%- include news.html %}
           {%- endif %}
 
           <!-- Latest posts -->
