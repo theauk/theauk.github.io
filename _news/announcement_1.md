@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected as a [Thanks to Scandinavia](https://fulbrightcenter.dk/grantsfordanes/thanks-to-scandinavia/) Scholar for my Master's (administered by Fulbright Denmark).
+Selected as a [Thanks to Scandinavia](https://fulbrightcenter.dk/grantsfordanes/thanks-to-scandinavia/) Scholar for my Master's at UCI (administered by Fulbright Denmark).
