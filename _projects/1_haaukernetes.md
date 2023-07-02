@@ -4,7 +4,7 @@ title: >
     Haaukernetes
 description: >
     Bachelor Project: Improving Haaukins (open-source CTF platform) using Kubernetes
-img:
+img: /assets/img/projects/haaukernetes.png
 importance: 1
 ---
 
