@@ -15,7 +15,7 @@ category:
     </div>
 </div>
 
-[Github Repository](https://github.com/theauk/Distributed-Dice-Game-Protocol)
+[Github Repository](https://github.com/theauk/Distributed-Dice-Game)
 
 *Technologies: Go*
 
