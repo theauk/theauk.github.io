@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a MSc in Computer Science student at the [University of California, Irvine](https://uci.edu/). I am excited about computer and software security. 
+I am a MSc in Computer Science student at the [University of California, Irvine](https://uci.edu/) supported by the [Thanks to Scandinavia](https://www.thankstoscandinavia.org/class-of-2023-us/) Foundation (selected by Fulbright Denmark). I am excited about computer and software security. 
 
 I received a BSc in Software Development from the [IT University of Copenhagen](https://en.itu.dk/) with a semester abroad at the [American University in Cairo](https://www.aucegypt.edu/).
 
