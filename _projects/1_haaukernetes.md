@@ -3,7 +3,7 @@ layout: page
 title: >
     Haaukernetes
 description: >
-    Bachelor Project: Improving Haaukins (open-source CTF platform) using Kubernetes
+    Bachelor Project: Building a Capture the Flag platform using Kubernetes
 img: /assets/img/projects/haaukernetes.png
 importance: 1
 ---
@@ -20,7 +20,7 @@ importance: 1
 
 *Technologies: Go, Docker, Kubernetes, Shell, R*
 
-This project examined whether it is feasible to manage user connections and challenges in [Haaukins](https://docs.haaukins.com/) (open-source CTF platform developed by Aalborg University) using Kubernetes. To answer this question, we developed the prototype Haaukernetes, which utilizes Kubernetes to simulate parts of Haaukins.
+This project examined whether it is feasible to manage user connections and challenges for a CTF platform using Kubernetes. To answer this question, we developed the prototype Haaukernetes. The motivation behind the project was to improve  [Haaukins](https://docs.haaukins.com/), an open-source CTF platform developed by Aalborg University.
 
 In Haaukernetes it is possible to for users to connect to challenges via the [Wireguard](https://www.wireguard.com/) VPN and in-browser Kali Linux via [Apache Guacamole](https://guacamole.apache.org/) while still keeping users isolated from each other and the internet. After setting up a Kubernetes cluster, adding Apache Guacamole, and running the Go program, the user can interact with an API to create users that can access CTF challenges via the two connection methods. The project consists of different parts:
 

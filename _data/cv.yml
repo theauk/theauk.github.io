@@ -1,14 +1,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.S. in Computer Science
+    - title: MSc in Computer Science
       institution: University of California, Irvine
       year: Expected June 2025
-    - title: B.S. in Software Development
+    - title: BSc in Software Development
       institution: IT University of Copenhagen
       year: 2023
       description:
-        - Bachelor project advised by <a href="https://alessandrobruni.name/" rel="external nofollow noopener" target="_blank">Alessandro Bruni</a>.
+        - Bachelor project "Building a Capture the Flag Platform Using Kubernetes" advised by <a href="https://alessandrobruni.name/" rel="external nofollow noopener" target="_blank">Alessandro Bruni</a>.
     - title: Study Abroad Semester
       institution: American University in Cairo
       year: Spring 2022
@@ -64,6 +64,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: Women in Cybersecurity (WiCyS) Student Scholar and Poster Presenter
+      year: 2024
+      description:
+        Selected for a conference scholarship and travel stipend to the WiCyS conference in April 2024.
     - title: Thanks to Scandinavia Scholar
       institution: 
       year: 2023
@@ -85,4 +89,4 @@
   contents:
     - <u>Languages:</u> Java, Go, C#, F#, C, R, Python, JavaScript, SQL, GraphQL
     - <u>Web Technologies:</u> React, TypeScript, HTML/CSS
-    - <u>Tools:</u> Git, Docker, Linux, Kubernetes
+    - <u>Tools:</u> Git, Docker, Linux, Kubernetes, Soot
