@@ -47,6 +47,12 @@
   contents:
     - title: Teaching Assistant
       institution:
+      year: UC Irvine
+      description:
+        - >
+          Spring 2024: CS296P Capstone Professional Writing and Communication for Computer Science Careers
+    - title: Teaching Assistant
+      institution:
       year: ITU
       description:
         - >
@@ -72,7 +78,7 @@
       institution: 
       year: 2023
       description:
-        - Selected as one of two Danish scholars for graduate tuition scholarship (administered by Fulbright Denmark).
+        - Selected by Fulbright Denmark as one of two Danish scholars for a graduate tuition scholarship.
     - title: Danish National Cybersecurity Competition (CTF)
       institution: 
       year: Spring 2021
@@ -87,6 +93,6 @@
 - title: Technical Skills
   type: list
   contents:
-    - <u>Languages:</u> Java, Go, C#, F#, C, R, Python, JavaScript, SQL, GraphQL
+    - <u>Languages:</u> Java, Go, C#, F#, C, Python, JavaScript, SQL, GraphQL, R
     - <u>Web Technologies:</u> React, TypeScript, HTML/CSS
     - <u>Tools:</u> Git, Docker, Linux, Kubernetes, Soot
