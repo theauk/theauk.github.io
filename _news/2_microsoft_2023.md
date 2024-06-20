@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed my second software engineering internship at Microsoft Ireland
+Completed my second software engineering internship at Microsoft Ireland :ireland:

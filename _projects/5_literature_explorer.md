@@ -3,7 +3,7 @@ layout: page
 title: Literature Explorer
 description: Graph visualization tool for citations
 img: assets/img/projects/lit-explorer.png
-importance: 5
+importance: 6
 category:
 ---
 

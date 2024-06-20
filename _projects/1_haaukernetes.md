@@ -5,7 +5,7 @@ title: >
 description: >
     Bachelor Project: Building a Capture the Flag platform using Kubernetes
 img: /assets/img/projects/haaukernetes.png
-importance: 1
+importance: 2
 ---
 
 <div class="row">

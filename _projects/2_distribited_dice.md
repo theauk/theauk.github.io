@@ -3,7 +3,7 @@ layout: page
 title: Distributed Dice Game
 description: Virtual 6-sided dice over an insecure network
 img: /assets/img/projects/dice.png
-importance: 2
+importance: 3
 category:
 ---
 

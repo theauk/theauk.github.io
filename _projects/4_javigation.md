@@ -3,7 +3,7 @@ layout: page
 title: Map of Denmark
 description: Visualization, navigation, and route planning
 img: /assets/img/projects/map.png
-importance: 4
+importance: 5
 category:
 ---
 
